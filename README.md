@@ -11,8 +11,6 @@ This project solves those issues by integrating **blockchain technology** to ens
 The system provides role-based access for **Admins, Station Officers, Supervisors, Investigators, and Prosecutors**.  
 Every major activity in the case lifecycle (complaint registration, case creation, evidence upload, assignments, and closure) is recorded both **off-chain in MySQL** and **on-chain in Ethereum (Ganache testnet)** for transparency.  
 
----
-
 ## Technologies Used
 - **Laravel 10 (PHP)**: Backend framework for business logic and database operations.  
 - **MySQL**: Relational database for off-chain data storage.  
@@ -22,8 +20,6 @@ Every major activity in the case lifecycle (complaint registration, case creatio
 - **Web3.js**: Library for blockchain interaction.  
 - **Truffle + Ganache**: For compiling and deploying Solidity smart contracts.  
 - **Solidity**: Programming language for smart contracts.  
-
----
 
 ## Project Structure
 - **app/**: Laravel models and controllers for handling business logic.  
@@ -63,8 +59,6 @@ Every major activity in the case lifecycle (complaint registration, case creatio
 - Stores off-chain copies of complaints, cases, evidence, and users.  
 - Blockchain transaction hashes are stored alongside records for auditing.  
 
----
-
 ## Database Design
 Key tables:
 - **users** – Admin, Station Officer, Supervisor, Investigator, Prosecutor.  
@@ -74,15 +68,11 @@ Key tables:
 - **assignments** – Supervisor → Investigator allocations.  
 - **logs** – Audit logs for all activities.  
 
----
-
 ## Conclusion
 This project demonstrates the **integration of Laravel, Node.js, MySQL, and Blockchain** to build a secure police case management system.  
 It ensures **data integrity, transparency, and accountability** in law enforcement processes.  
 
-The system successfully reduces reliance on paper files and introduces a **modern, tamper-proof case management approach** suitable for regional police stations.  
-
----
+The system successfully reduces reliance on paper files and introduces a **modern, tamper-proof case management approach** suitable for regional police stations. 
 
 ## How to Run the Project
 
@@ -123,7 +113,7 @@ The system successfully reduces reliance on paper files and introduces a **moder
    ```bash
    php artisan serve
 
-8. **System Passwords** 
+8. System Passwords 
 Admin  
 Username – girey@gmail.com 
 Password – gigigigi 
